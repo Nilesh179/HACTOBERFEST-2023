@@ -1,0 +1,150 @@
+#Entering how many matches and the scores
+lst = []
+num = int(input('How many matches(3-10 matches): '))
+for n in range(num):
+    numbers = int(input('If los enter 1, if win enter 0: '))
+    lst.append(numbers)
+lst_sum = sum(lst)
+
+#Telling if you won or lost, by summing up the scores
+if num == 3:
+    if lst_sum == 3:
+        print("You lost all the Matches!")
+
+    elif lst_sum == 0:
+        print("You won all the Matches!")
+
+    elif lst_sum == 2:
+        print("You lost the Game!")
+
+    elif lst_sum == 1:
+        print("You won the Game!")
+
+elif num == 4:
+    if lst_sum == 0:
+        print("You won the Game!")
+    elif lst_sum == 1:
+        print("You won the Game!")
+    elif lst_sum == 2:
+        print("Its a Tie!")
+    elif lst_sum == 3:
+        print("You lost the game!")
+    elif lst_sum == 4:
+        print("You lost the game!")
+
+elif num == 5:
+    if lst_sum == 0:
+        print("You won the Game!")
+    elif lst_sum == 1:
+        print("You won the Game!")
+    elif lst_sum == 2:
+        print("You won the game!")
+    elif lst_sum == 3:
+        print("You lost the game!")
+    elif lst_sum == 4:
+        print("You lost the game!")
+    elif lst_sum == 5:
+        print("You lost the game!")
+
+elif num == 6:
+    if lst_sum == 0:
+        print("You won the Game!")
+    elif lst_sum == 1:
+        print("You won the Game!")
+    elif lst_sum == 2:
+        print("You won the game!")
+    elif lst_sum == 3:
+        print("Its a tie!")
+    elif lst_sum == 4:
+        print("You lost the game!")
+    elif lst_sum == 5:
+        print("You lost the game!")
+    elif lst_sum == 6:
+        print("You lost the game!")
+        
+elif num == 7:
+    if lst_sum == 0:
+        print("You won the Game!")
+    elif lst_sum == 1:
+        print("You won the Game!")
+    elif lst_sum == 2:
+        print("You won the game!")
+    elif lst_sum == 3:
+        print("You won the game!")
+    elif lst_sum == 4:
+        print("You lost the game!")
+    elif lst_sum == 5:
+        print("You lost the game!")
+    elif lst_sum == 6:
+        print("You lost the game!")
+    elif lst_sum == 7:
+        print("You lost the game!")
+    
+
+elif num == 8:
+    if lst_sum == 0:
+        print("You won the Game!")
+    elif lst_sum == 1:
+        print("You won the Game!")
+    elif lst_sum == 2:
+        print("You won the game!")
+    elif lst_sum == 3:
+        print("You won the game!")
+    elif lst_sum == 4:
+        print("Its a tie!")
+    elif lst_sum == 5:
+        print("You lost the game!")
+    elif lst_sum == 6:
+        print("You lost the game!")
+    elif lst_sum == 7:
+        print("You lost the game!")
+    elif lst_sum == 8:
+        print("You lost the game!")
+        
+elif num == 9:
+    if lst_sum == 0:
+        print("You won the Game!")
+    elif lst_sum == 1:
+        print("You won the Game!")
+    elif lst_sum == 2:
+        print("You won the game!")
+    elif lst_sum == 3:
+        print("You won the game!")
+    elif lst_sum == 4:
+        print("You won the game!")
+    elif lst_sum == 5:
+        print("You lost the game!")
+    elif lst_sum == 6:
+        print("You lost the game!")
+    elif lst_sum == 7:
+        print("You lost the game!")
+    elif lst_sum == 8:
+        print("You lost the game!")
+    elif lst_sum == 9:
+        print("You lost the game!")
+        
+elif num == 10:
+    if lst_sum == 0:
+        print("You won the Game!")
+    elif lst_sum == 1:
+        print("You won the Game!")
+    elif lst_sum == 2:
+        print("You won the game!")
+    elif lst_sum == 3:
+        print("You won the game!")
+    elif lst_sum == 4:
+        print("You won the game!")
+    elif lst_sum == 5:
+        print("Its a tie!")
+    elif lst_sum == 6:
+        print("You lost the game!")
+    elif lst_sum == 7:
+        print("You lost the game!")
+    elif lst_sum == 8:
+        print("You lost the game!")
+    elif lst_sum == 9:
+        print("You lost the game!")
+    elif lst_sum == 10:
+        print("You lost the game!")
+
+#Prints if you won or lost
