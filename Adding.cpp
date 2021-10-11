@@ -1,13 +1,13 @@
 #include<iostream
 using namespace std;
-int main(){
+
+int main()
+{
 int a,b,c;
-Cout<<"Enter number\n";
-Cin>>a;
-While(b!=0){
+cout<<"Enter the first number : ";
+cin>>a;
+cout<<"Enter the second number : ";
 cin>>b;
-c+=b;
-};
-Cout<<(a+c);
+cout<<"The sum of the two numbers is : "<<a+b;
 return 0;
 }
