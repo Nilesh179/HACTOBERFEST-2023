@@ -1,10 +1,12 @@
 #include<iostream>
 using namespace std;
-int main(){
+int main()
+{
 char a;
-cout<<"Enter any character[Only capital letters]\n";
+cout<<"Enter any character of VIBGYOR [Only capital letters]\n";
 cin>>a;
-switch(a){
+switch(a)
+{
 case 'V':
 cout<<"VIOLET\n";
 break;
